@@ -1,0 +1,94 @@
+.el-card__body {
+  padding: 0;
+  margin: 0;
+}
+
+.input_column {
+  margin-bottom: 10px;
+}
+
+.input_column {
+  margin-bottom: 10px;
+}
+
+.el-form-item {
+  margin-bottom: 0;
+}
+
+.el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+  margin-bottom: 0;
+}
+
+
+.login-form-layout {
+  position: absolute;
+  left: 35%;
+  right: 0;
+  width: 360px;
+  margin: 140px auto;
+  border-top: 10px solid #409eff;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.login-center-layout {
+  position: fixed;
+  top: 200px;
+  left: 0;
+  background: #409eff;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.el-form-item-width {
+  width: 350px;
+}
+.el-form-item-margin {
+  margin-bottom: 10px
+}
+.el-upload-list__item {
+  color: #606266;
+  display: block;
+  margin-right: 40px;
+  overflow: hidden;
+  padding-left: 4px;
+  text-overflow: ellipsis;
+  transition: none !important;
+  white-space: nowrap;
+}
+.text {
+  font-size: 14px;
+}
+
+.item {
+  margin-bottom: 18px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both
+}
+
+.box-card {
+  width: 100%;
+  padding: 0 20px 0 0;
+}
+
+.marginBottom22 {
+  margin-top: 22px !important;
+}
+.marginBottom10 {
+  margin-top: 10px !important;
+}
+.width450 {
+  width: 450px !important;
+}
+

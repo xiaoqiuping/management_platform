@@ -1,0 +1,22 @@
+export const sendGoodsOrderStatus = [
+  {
+    type:1,
+    value:'新建'
+  },
+  {
+    type:2,
+    value:'出库送检'
+  },
+  {
+    type:3,
+    value:'质检不通过'
+  },
+  {
+    type:4,
+    value:'质检通过'
+  },
+  {
+    type:5,
+    value:'已发货'
+  },
+]

@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/management_platform?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: mysql
+
+logging:
+  config: classpath:logging.xml
+log:
+  name: management_platform
+  path: d://js/
+  level: info
+
+minio:
+  bucketName: test
+  endpoint: http://liubity.com:9000
+  accessKey: liubity
+  secretKey: xqp1991615

@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    database-platform: com.liubity.platform_starter.jpa.MySQL5DialectUTF8
+  datasource:
+    druid:
+      initialSize: 5
+      minIdle: 5
+      maxActive: 200
+      maxWait: 5000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 1
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      stat-view-servlet:
+        enabled: false
+      web-stat-filter:
+        enabled: false
+      clear-filters-enable: false

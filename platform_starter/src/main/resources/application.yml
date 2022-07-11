@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /management
+
+spring:
+  profiles:
+    active:
+    - data
+    - prod-liubity
+  application:
+     name: platform_starter
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      enabled: true
+  jackson:
+    date-format:  yyyy-MM-dd HH:mm:ss

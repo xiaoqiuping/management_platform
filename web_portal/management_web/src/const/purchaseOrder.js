@@ -1,0 +1,30 @@
+export const purchaseOrderStatus = [
+  {
+    type:1,
+    value:"新建"
+  },
+  {
+    type:2,
+    value:"采购中"
+  },
+  {
+    type:3,
+    value:"采购完成"
+  },
+  {
+    type:4,
+    value:"审核通过"
+  },
+  {
+    type:5,
+    value:"审核中"
+  },
+  {
+    type:6,
+    value:"审核未通过"
+  },
+  {
+    type:7,
+    value:"入库成功"
+  }
+]
