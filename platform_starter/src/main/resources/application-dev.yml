@@ -9,7 +9,7 @@ logging:
   config: classpath:logging.xml
 log:
   name: management_platform
-  path: d://js/
+  path: /Users/liubity/js
   level: info
 
 minio:
